@@ -177,16 +177,16 @@ Description: Variscite MII Tool
  Modules (SOMs).
 
 Package: var-mii
-Version: 1.0+git20260604.ff27da94e60c-1
+Version: 1.0+git20260604.44adc47035b0-1
 Architecture: arm64
 Maintainer: Nate Drude <nate.d@variscite.com>
 Installed-Size: 82
 Depends: libc6 (>= 2.34)
-Filename: ./pool/bookworm/v/var-mii/var-mii_1.0+git20260604.ff27da94e60c-1_arm64.deb
+Filename: ./pool/bookworm/v/var-mii/var-mii_1.0+git20260604.44adc47035b0-1_arm64.deb
 Size: 11036
-MD5sum: ea4b4bbe804dc890be0daa63fa483d34
-SHA1: 7a57d3da1bb4698e5828ceee29ba5b950ca5cb8f
-SHA256: 25bd99f809f720ca8e2aeed7f2d0b87fb3ab4f35fe2037dd4dfac28835355fc0
+MD5sum: 238130df56708bf8c93eeac55300243f
+SHA1: de9be6315aca8c06cfb4f0dad54d77bcfe5cd936
+SHA256: b01250a33830f2ee1b8b753c07527d0de8c26c8e5d2d7df748c93a6635ae8175
 Section: utils
 Priority: optional
 Homepage: https://github.com/varigit/var-mii
