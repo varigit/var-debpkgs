@@ -12,7 +12,7 @@ fi
 PPAS=("var" "var-ti" "var-nxp" "am62x-var-som")
 
 # Array of releases
-RELEASES=("bookworm")
+RELEASES=("bookworm" "trixie")
 
 # Function to organize deb files into pool by first letter
 organize_debs_into_pool() {
@@ -63,7 +63,6 @@ for PPA in "${PPAS[@]}"; do
 
         # Organize deb files into pool for all releases
         organize_debs_into_pool "$POOL_DIR" "$POOL_RELEASE_DIR"
-        cleanup_debs "$POOL_DIR"
 
         # Organize deb files in the specific release directory into pool
         organize_debs_into_pool "$POOL_RELEASE_DIR" "$POOL_RELEASE_DIR"
@@ -74,7 +73,7 @@ for PPA in "${PPAS[@]}"; do
 
         # Generate Packages and Packages.gz files
         echo "Generating Packages and Packages.gz for $RELEASE in $POOL_RELEASE_DIR..."
-        dpkg-scanpackages --multiversion . > "$DIST_DIR/main/binary-arm64/Packages"
+        dpkg-scanpackages --multiversion "pool/$RELEASE" > "$DIST_DIR/main/binary-arm64/Packages"
         gzip -k -f "$DIST_DIR/main/binary-arm64/Packages"
 
         # Generate Release file with necessary metadata
@@ -91,4 +90,5 @@ for PPA in "${PPAS[@]}"; do
         echo "PPA files updated successfully for $RELEASE in $PPA_DIR."
         cd -
     done
+    cleanup_debs "$POOL_DIR"
 done
