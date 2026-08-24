@@ -1,0 +1,18 @@
+Package: var-mii
+Version: 1.0+git20260824.e3d57777f5ab-1
+Architecture: arm64
+Maintainer: Nate Drude <nate.d@variscite.com>
+Installed-Size: 82
+Depends: libc6 (>= 2.34)
+Filename: pool/trixie/v/var-mii/var-mii_1.0+git20260824.e3d57777f5ab-1_arm64.deb
+Size: 11376
+MD5sum: 6ce08838404e1a48df751f21e7cb7755
+SHA1: e51e286f6ac81541da2d8a6953fa111a16884aca
+SHA256: 18c661b17c82007f5272ed1a16dd56663b14c275c8cc442b5740dab6cc3d75fa
+Section: utils
+Priority: optional
+Homepage: https://github.com/varigit/var-mii
+Description: Variscite MII Tool
+ A tool to read, write, and test MII interfaces on Variscite System on
+ Modules (SOMs).
+

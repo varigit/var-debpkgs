@@ -3,7 +3,7 @@ Version: 1:20230804-r0.arago1.0
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Depends: linux-firmware-broadcom-license
-Filename: ./pool/bookworm/l/linux-firmware-bcm4339/linux-firmware-bcm4339_20230804-r0.arago1.0_all.deb
+Filename: pool/bookworm/l/linux-firmware-bcm4339/linux-firmware-bcm4339_20230804-r0.arago1.0_all.deb
 Size: 382392
 MD5sum: 88e85ad26490613d4aaef54a8166c3e3
 SHA1: e11704234c1b755673c58fdd4c92fa5fd1127b58
@@ -24,7 +24,7 @@ Version: 1:20230804-r0.arago1.0
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Depends: linux-firmware-cypress-license
-Filename: ./pool/bookworm/l/linux-firmware-bcm43430/linux-firmware-bcm43430_20230804-r0.arago1.0_all.deb
+Filename: pool/bookworm/l/linux-firmware-bcm43430/linux-firmware-bcm43430_20230804-r0.arago1.0_all.deb
 Size: 312352
 MD5sum: 23fe98917d9b8936f7278d4236112c38
 SHA1: d807fcbdde2569359752255ef3438a81f75c39e9
@@ -44,7 +44,7 @@ Package: linux-firmware-broadcom-license
 Version: 1:20230804-r0.arago1.0
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Filename: ./pool/bookworm/l/linux-firmware-broadcom-license/linux-firmware-broadcom-license_20230804-r0.arago1.0_all.deb
+Filename: pool/bookworm/l/linux-firmware-broadcom-license/linux-firmware-broadcom-license_20230804-r0.arago1.0_all.deb
 Size: 2928
 MD5sum: adaed724831ccc931f20e40a26afa84b
 SHA1: c3f71d76ba88b2a4228a0a8ea42ceff34485fe68
@@ -64,7 +64,7 @@ Package: linux-firmware-cypress-license
 Version: 1:20230804-r0.arago1.0
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Filename: ./pool/bookworm/l/linux-firmware-cypress-license/linux-firmware-cypress-license_20230804-r0.arago1.0_all.deb
+Filename: pool/bookworm/l/linux-firmware-cypress-license/linux-firmware-cypress-license_20230804-r0.arago1.0_all.deb
 Size: 4556
 MD5sum: 1e7a5ff36e8dcf8188d2f3d49a03c49d
 SHA1: 5ec083fd7abdeb279931e098fc6c084ece9aca51
@@ -86,7 +86,7 @@ Version: 6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2
 Architecture: arm64
 Maintainer: Andrew Davis <afd@ti.com>
 Installed-Size: 49851
-Filename: ./pool/bookworm/l/linux-headers-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d/linux-headers-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d_6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2_arm64.deb
+Filename: pool/bookworm/l/linux-headers-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d/linux-headers-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d_6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2_arm64.deb
 Size: 8195408
 MD5sum: 989441abadd3d98bfefaf43bd8ebd9ef
 SHA1: 70f3912075b220152c4686e9d71b8dd69180f29a
@@ -105,7 +105,7 @@ Version: 6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1
 Architecture: arm64
 Maintainer: Andrew Davis <afd@ti.com>
 Installed-Size: 49832
-Filename: ./pool/bookworm/l/linux-headers-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0/linux-headers-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0_6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1_arm64.deb
+Filename: pool/bookworm/l/linux-headers-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0/linux-headers-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0_6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1_arm64.deb
 Size: 8191636
 MD5sum: 4fffdf968f52f4d0d27915b5aff16ea3
 SHA1: 31c09688287ea88931a60a4af9f00effe349219f
@@ -124,7 +124,7 @@ Version: 6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1
 Architecture: arm64
 Maintainer: Nate Drude <nate.d@variscite.com>
 Installed-Size: 49668
-Filename: ./pool/bookworm/l/linux-headers-6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_arm64.deb
+Filename: pool/bookworm/l/linux-headers-6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_arm64.deb
 Size: 8228780
 MD5sum: 98bf5bfbaadbf4145d4e9fd1c4d083a9
 SHA1: dd1fa1067154c9b60efcf249d658b427701b156d
@@ -142,7 +142,7 @@ Version: 6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1
 Architecture: arm64
 Maintainer: Nate Drude <nate.d@variscite.com>
 Installed-Size: 49947
-Filename: ./pool/bookworm/l/linux-headers-6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_arm64.deb
+Filename: pool/bookworm/l/linux-headers-6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_arm64.deb
 Size: 8242572
 MD5sum: d2bdb50a5f8c0a2bb52ce35565bc35bd
 SHA1: ec8df61fe6e32f80832a5b1c3f5c9f8ebb38fbac
@@ -160,7 +160,7 @@ Version: 6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1
 Architecture: arm64
 Maintainer: Pitchaiah P <pitchaiah.p@variscite.com>
 Installed-Size: 49967
-Filename: ./pool/bookworm/l/linux-headers-6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_arm64.deb
+Filename: pool/bookworm/l/linux-headers-6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_arm64.deb
 Size: 8241564
 MD5sum: d9fc2c685d3f89d83be74113fb93f7c0
 SHA1: bc67392c1499ad68bfd98517a2ee0e81bcb83769
@@ -178,7 +178,7 @@ Version: 6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2
 Architecture: arm64
 Maintainer: Andrew Davis <afd@ti.com>
 Installed-Size: 47233
-Filename: ./pool/bookworm/l/linux-image-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d/linux-image-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d_6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2_arm64.deb
+Filename: pool/bookworm/l/linux-image-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d/linux-image-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d_6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2_arm64.deb
 Size: 16271940
 MD5sum: 9c053ab1cbacd4fe3c622add1f8b41ba
 SHA1: 2b406d65eebaa64703699eea8ff0a2b4290ad04b
@@ -196,7 +196,7 @@ Version: 6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2
 Architecture: arm64
 Maintainer: Andrew Davis <afd@ti.com>
 Installed-Size: 227273
-Filename: ./pool/bookworm/l/linux-image-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-dbg/linux-image-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-dbg_6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2_arm64.deb
+Filename: pool/bookworm/l/linux-image-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-dbg/linux-image-6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-dbg_6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2_arm64.deb
 Size: 51802236
 MD5sum: 3c4ce2987f625688b2ca19cacf61ab1a
 SHA1: cc19aed39fac568e82f21c857b49b1362cf9ba40
@@ -214,7 +214,7 @@ Version: 6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1
 Architecture: arm64
 Maintainer: Andrew Davis <afd@ti.com>
 Installed-Size: 46502
-Filename: ./pool/bookworm/l/linux-image-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0/linux-image-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0_6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1_arm64.deb
+Filename: pool/bookworm/l/linux-image-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0/linux-image-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0_6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1_arm64.deb
 Size: 16131956
 MD5sum: 1d7e4a34fafaf40e308584adc84da2df
 SHA1: f10cf6a81947913f09f3365ac5176de0d2761524
@@ -232,7 +232,7 @@ Version: 6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1
 Architecture: arm64
 Maintainer: Andrew Davis <afd@ti.com>
 Installed-Size: 222759
-Filename: ./pool/bookworm/l/linux-image-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-dbg/linux-image-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-dbg_6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1_arm64.deb
+Filename: pool/bookworm/l/linux-image-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-dbg/linux-image-6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-dbg_6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1_arm64.deb
 Size: 51127168
 MD5sum: 49b9d9251b055b415bdf96a4818c4dd5
 SHA1: a20c08ce33d8dcf7263dc194a0ea167e0912ed15
@@ -250,7 +250,7 @@ Version: 6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1
 Architecture: arm64
 Maintainer: Nate Drude <nate.d@variscite.com>
 Installed-Size: 42618
-Filename: ./pool/bookworm/l/linux-image-6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_arm64.deb
+Filename: pool/bookworm/l/linux-image-6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_arm64.deb
 Size: 14840908
 MD5sum: 2d326be073009470d80342c2d61fb2bd
 SHA1: ab292a6e6cad214de37ad3b2aa22c33f778b6a40
@@ -268,7 +268,7 @@ Version: 6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1
 Architecture: arm64
 Maintainer: Nate Drude <nate.d@variscite.com>
 Installed-Size: 200331
-Filename: ./pool/bookworm/l/linux-image-6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1-dbg_6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_arm64.deb
+Filename: pool/bookworm/l/linux-image-6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1-dbg_6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_arm64.deb
 Size: 46641172
 MD5sum: ef288ca5c88dc8903320f56e55d86313
 SHA1: aaed87a378e9c4404cc76d1d31da91753a83383c
@@ -287,7 +287,7 @@ Architecture: arm64
 Maintainer: Nate Drude <nate.d@variscite.com>
 Installed-Size: 42921
 Depends: linux-headers-6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1
-Filename: ./pool/bookworm/l/linux-image-6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_arm64.deb
+Filename: pool/bookworm/l/linux-image-6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_arm64.deb
 Size: 15033896
 MD5sum: 505297d8d78440adbd93b3484e00cac5
 SHA1: a78355901e34cd146e46164884221537eb82f724
@@ -305,7 +305,7 @@ Version: 6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1
 Architecture: arm64
 Maintainer: Nate Drude <nate.d@variscite.com>
 Installed-Size: 202489
-Filename: ./pool/bookworm/l/linux-image-6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1-dbg_6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_arm64.deb
+Filename: pool/bookworm/l/linux-image-6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1-dbg_6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_arm64.deb
 Size: 47231804
 MD5sum: 120dfba8ea798264841cb031cdc623ad
 SHA1: 2473ea1b1b4eb2cd4353989cff31310011eceebd
@@ -324,7 +324,7 @@ Architecture: arm64
 Maintainer: Pitchaiah P <pitchaiah.p@variscite.com>
 Installed-Size: 43748
 Depends: linux-headers-6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1
-Filename: ./pool/bookworm/l/linux-image-6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_arm64.deb
+Filename: pool/bookworm/l/linux-image-6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_arm64.deb
 Size: 15186508
 MD5sum: ccbac3ae9daa580ce151bfca78bb2fbd
 SHA1: e7f9edb9870c52bc92e0f2acc3b87eb41520b82f
@@ -342,7 +342,7 @@ Version: 6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1
 Architecture: arm64
 Maintainer: Pitchaiah P <pitchaiah.p@variscite.com>
 Installed-Size: 207005
-Filename: ./pool/bookworm/l/linux-image-6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1-dbg_6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_arm64.deb
+Filename: pool/bookworm/l/linux-image-6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1-dbg_6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_arm64.deb
 Size: 47921540
 MD5sum: 7852a9a79a8f7432f0c5a620b6dbf2e9
 SHA1: 45b95e53b7434ae98e09bc2882982dfdfb468dec
@@ -361,7 +361,7 @@ Architecture: arm64
 Maintainer: Andrew Davis <afd@ti.com>
 Installed-Size: 6498
 Provides: linux-kernel-headers
-Filename: ./pool/bookworm/l/linux-libc-dev/linux-libc-dev_6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2_arm64.deb
+Filename: pool/bookworm/l/linux-libc-dev/linux-libc-dev_6.1.46+940fab2b81d2867133444eed01ba1b20c294965d-2_arm64.deb
 Size: 1251904
 MD5sum: 57b58560aa7d1d6a01a0c4f677171d63
 SHA1: 13330c261eedaf7abf871ad78148fd69b9e17c00
@@ -381,7 +381,7 @@ Architecture: arm64
 Maintainer: Andrew Davis <afd@ti.com>
 Installed-Size: 6498
 Provides: linux-kernel-headers
-Filename: ./pool/bookworm/l/linux-libc-dev/linux-libc-dev_6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1_arm64.deb
+Filename: pool/bookworm/l/linux-libc-dev/linux-libc-dev_6.1.46+ff7deb28804cb5feeef0e5e51fd8acae58f870f0-1_arm64.deb
 Size: 1251724
 MD5sum: 3b978bf0de77c8b26f8cac3ca9516d48
 SHA1: b2352129600f20e0d0a17deb43b5a0220bc76d85
@@ -401,7 +401,7 @@ Architecture: arm64
 Maintainer: Nate Drude <nate.d@variscite.com>
 Installed-Size: 6503
 Provides: linux-kernel-headers
-Filename: ./pool/bookworm/l/linux-libc-dev_6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_arm64.deb
+Filename: pool/bookworm/l/linux-libc-dev_6.1.83-k3-var1+ca705eb7c9d102423b529319e8192634cc7bfbbd-1_arm64.deb
 Size: 1252652
 MD5sum: d5541b4d6fd4beedd1237c4b5575cfc7
 SHA1: 6119aeedaba708c2ac8af054e6654b8803059a04
@@ -421,7 +421,7 @@ Architecture: arm64
 Maintainer: Nate Drude <nate.d@variscite.com>
 Installed-Size: 6503
 Provides: linux-kernel-headers
-Filename: ./pool/bookworm/l/linux-libc-dev_6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_arm64.deb
+Filename: pool/bookworm/l/linux-libc-dev_6.1.83-k3-var2+62548c6d33d9a14a1960a856bab0ac58218c43a9-1_arm64.deb
 Size: 1252960
 MD5sum: 47764b7b4e8c895c1a3fbfcf229585a9
 SHA1: d8187f06f5c287361c59db528339d5e365f31c49
@@ -441,7 +441,7 @@ Architecture: arm64
 Maintainer: Pitchaiah P <pitchaiah.p@variscite.com>
 Installed-Size: 6503
 Provides: linux-kernel-headers
-Filename: ./pool/bookworm/l/linux-libc-dev_6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_arm64.deb
+Filename: pool/bookworm/l/linux-libc-dev_6.1.83-k3-var3+ef02b21f5d6fe1b1cd5678b0ad50f442a0fe8c8a-1_arm64.deb
 Size: 1253108
 MD5sum: d7db7bc340cbdf172beba8259e3c49cb
 SHA1: d6e0f63ef8546844d7bcab1984ddf2f813c4b8cd
@@ -459,7 +459,7 @@ Version: 3154fcb-r1.0.2
 Architecture: arm64
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Depends: gpiod, libgpiod2
-Filename: ./pool/bookworm/v/var-gpio-utils/var-gpio-utils_3154fcb-r1.0.2_arm64.deb
+Filename: pool/bookworm/v/var-gpio-utils/var-gpio-utils_3154fcb-r1.0.2_arm64.deb
 Size: 1196
 MD5sum: 3749e14bc4cb841701e00404bd78422c
 SHA1: b715492f1354858baf5e19e56fa5222731a61944
@@ -476,7 +476,7 @@ Version: 3154fcb-r1.0.0
 Architecture: arm64
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Depends: base-files
-Filename: ./pool/bookworm/v/var-wireless-utils/var-wireless-utils_3154fcb-r1.0.0_arm64.deb
+Filename: pool/bookworm/v/var-wireless-utils/var-wireless-utils_3154fcb-r1.0.0_arm64.deb
 Size: 3800
 MD5sum: 8985e8fa27579f6d36a66c10a918a333
 SHA1: 7228ea9bf5f9b69303a0535393153c36c88f64f8

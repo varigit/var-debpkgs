@@ -3,7 +3,7 @@ Version: 3154fcb-r1.0.2
 Architecture: arm64
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Depends: base-files, gpiod, i2c-tools, libgpiod2, util-linux, var-gpio-utils, var-wireless-utils
-Filename: ./pool/bookworm/b/bcm43xx-utils/bcm43xx-utils_3154fcb-r1.0.2_arm64.deb
+Filename: pool/bookworm/b/bcm43xx-utils/bcm43xx-utils_3154fcb-r1.0.2_arm64.deb
 Size: 2800
 MD5sum: 59616206b4b6f9751ac1d477358ddf4b
 SHA1: 898255b7bad45269c8e1843e8acec8beefe68002
@@ -24,7 +24,7 @@ Installed-Size: 66
 Conflicts: firmware-ti-ipc
 Replaces: firmware-ti-ipc
 Provides: firmware-ti-ipc
-Filename: ./pool/bookworm/f/firmware-ti-ipc-am62-var-som/firmware-ti-ipc-am62-var-som_09.01.00.08-01+81dce77663841e1aea3228ee237ed4f1d6148afc-1_all.deb
+Filename: pool/bookworm/f/firmware-ti-ipc-am62-var-som/firmware-ti-ipc-am62-var-som_09.01.00.08-01+81dce77663841e1aea3228ee237ed4f1d6148afc-1_all.deb
 Size: 28684
 MD5sum: a758c479611cfa251d8a870abb3801de
 SHA1: bbd797e094768ef3f07701ed3f1ef6298e6dbd50
@@ -41,7 +41,7 @@ Architecture: arm64
 Maintainer: Pitchaiah P <pitchaiah.p@variscite.com>
 Installed-Size: 8377
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-egl1-mesa
-Filename: ./pool/bookworm/i/img-powervr-sdk/img-powervr-sdk_1.0+3576dbd5c651c4c92517af83dbd9fdf394a16b22-r0_arm64.deb
+Filename: pool/bookworm/i/img-powervr-sdk/img-powervr-sdk_1.0+3576dbd5c651c4c92517af83dbd9fdf394a16b22-r0_arm64.deb
 Size: 4795324
 MD5sum: a3e2c3257d630326a4b5464724b463b6
 SHA1: 62cab28cf60a66b2e5bb55a9eb3c8f4d790f70f8

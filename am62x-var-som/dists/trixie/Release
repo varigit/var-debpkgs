@@ -1,0 +1,24 @@
+Architectures: arm64
+Codename: trixie
+Components: main
+Date: Mon, 24 Aug 2026 19:14:16 +0000
+Description: Variscite am62x-var-som packages for trixie
+Label: Variscite
+Origin: Variscite
+Suite: trixie
+MD5Sum:
+ eb91a8e1455c0f1924b753e0ad68e4e1              199 Release
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-arm64/Packages
+ 593e06ba194af56f02f1fe1b111f9b17               29 main/binary-arm64/Packages.gz
+SHA1:
+ 7a579841e00c7f42bbc601bc4ba066fc5d50423e              199 Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-arm64/Packages
+ cc9c506ffa65ffa45365cd57b0a39d15c19e5ff1               29 main/binary-arm64/Packages.gz
+SHA256:
+ 63a9ace4d0fcf29b9b88388d21b10f4f9e0594035d9b0ee02d9cd3da73e3ed18              199 Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-arm64/Packages
+ b1e689c862596b878d6154cd57547dcedf2bf923d1447d10b457291f93ec4f11               29 main/binary-arm64/Packages.gz
+SHA512:
+ dea116950d39b6756242af55e640da10f7304ed13ab9f9c3ce92966ee42c23d36816b99c71a6bced25d64f47bede4ea0581540c2fcb2384dd572a187e5f91d2a              199 Release
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-arm64/Packages
+ 928e49b0e143005a3fa6e6c39006a212e1643555667248e8a2e738d238068232f08008f023e8e66403fb5a5e0cce9233f97adc7ab44401c93d476019c1300c0c               29 main/binary-arm64/Packages.gz
