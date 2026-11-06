@@ -1,0 +1,17 @@
+Package: img-powervr-sdk
+Version: 5.13+f79fdc075ca1f81f2aac98160466d510cd8f1da2-r0
+Architecture: arm64
+Maintainer: Pitchaiah P <pitchaiah.p@variscite.com>
+Installed-Size: 8505
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0)
+Filename: pool/trixie/i/img-powervr-sdk/img-powervr-sdk_5.13+f79fdc075ca1f81f2aac98160466d510cd8f1da2-r0_arm64.deb
+Size: 4833636
+MD5sum: 641ffe21fdb5dcaf48dc314e30e2614a
+SHA1: 5c121747caf77e33362428103d6432591af6c10b
+SHA256: 0e84082c92280558bc08f45e8bdb66f71e3f40cdb4397d1b8a1a0ffe0062598f
+Section: graphics
+Priority: optional
+Homepage: https://docs.imgtec.com
+Description: Imagination PowerVR SDK binaries and OpenGLES examples
+ Contains OpenGLES example demos for Wayland windowing system using Imagination's SDK.
+

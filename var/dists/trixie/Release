@@ -1,24 +1,24 @@
 Architectures: arm64
 Codename: trixie
 Components: main
-Date: Fri, 02 Oct 2026 14:36:37 +0000
+Date: Fri, 06 Nov 2026 12:05:24 +0000
 Description: Variscite var packages for trixie
 Label: Variscite
 Origin: Variscite
 Suite: trixie
 MD5Sum:
- 879183bd4c2a30820c7d57b471ac4d1f              189 Release
+ c4708cd22709e5b2675f14c3ae4b8818              189 Release
  6af025421af0b3a1cf4723082083e0a2             1242 main/binary-arm64/Packages
- fd2dedaa5b1c6e4a15c6518f7cb4571f              578 main/binary-arm64/Packages.gz
+ d3d9de3a6399b74efd17c2a59378d5b6              578 main/binary-arm64/Packages.gz
 SHA1:
- d941b5903987d16142719d3273d361741adf85a9              189 Release
+ 74774c9bf9bd4efcd7d80fe6255cf6188b780222              189 Release
  72125f7fd4435c49f3ffc79a46144d6ef57fe2c5             1242 main/binary-arm64/Packages
- b60c4bc7ca534e9a5342e656c2f77d21fbba68c6              578 main/binary-arm64/Packages.gz
+ 58ea10fca8391b37e698f590a62a5c52bcb46566              578 main/binary-arm64/Packages.gz
 SHA256:
- 054fb9c7566257133959f6aa912331575cf2ceb9d3f26458486490a5ca7b42a0              189 Release
+ c5b60d949c73994d8f4086e69e83fd5c29a78ddd1bc83058166518fd3b08de26              189 Release
  4e6f8dc616bbe421fd711324eefe7d4e7b3dab8b149159a94840b117032be11e             1242 main/binary-arm64/Packages
- 4afe9d0d17c03d148c4dcaaf8ff534dd468ae628e3def4ae97735b0bb825d5af              578 main/binary-arm64/Packages.gz
+ 2359b5b1cc1b3ec7cf017fbc5f1e0e20c310a2386f3e57a694f142eba73ea3e9              578 main/binary-arm64/Packages.gz
 SHA512:
- 8b8fb72ea74e598c3fac8524a0d3c47e5eab99282a92dc552cac31ef1565b681dc1472ca9febeaf949a5fd1e9a11d7507fbd00a8066e9b4081dd9eed1a49135a              189 Release
+ e50aa0a2844ab0d7679fe88b543ffeabfcb6b5b031a5edd4b6ddae4a421f08a6004659658349e3b5ffacb3400b79889a569fd411ed8ea86ff7f27a3974724874              189 Release
  a3701e161054f97854a14a7418b3d94eea8525e485b4412d6c7cf1d9f0e9c6ebb70269873f9cfc7cef0ed08375594c79035abd81a0e5803070b7ea29f186372c             1242 main/binary-arm64/Packages
- 95f3b0b2dfca1908e8e42330e4664bea9270f8210d91a6fbc28fc86f97f8c7621aabd36c4a1a8a284c879868a1243c82b83b7fe93817de9321ddb1c06f80e085              578 main/binary-arm64/Packages.gz
+ 93cead8320b6ba57c4a7c190d733e560616738f621542c7af1293045c7a6e7ccebf8387feefcc7c6d7a73f8160da6963144f70cf9b16fb5d5690aade8c6259f7              578 main/binary-arm64/Packages.gz
