@@ -1,24 +1,24 @@
 Architectures: arm64
 Codename: trixie
 Components: main
-Date: Fri, 06 Nov 2026 12:05:29 +0000
+Date: Sun, 08 Nov 2026 20:16:46 +0000
 Description: Variscite var-ti packages for trixie
 Label: Variscite
 Origin: Variscite
 Suite: trixie
 MD5Sum:
- b85292e9e7553a304ba77240ff89b556              192 Release
- aa916975e7fdf59c497eb40a0fcbf559              819 main/binary-arm64/Packages
- 28ff1343cef2bca72b88f6a94b8dd7d3              538 main/binary-arm64/Packages.gz
+ 333453a4e802325b8c80b01d0829aa73              192 Release
+ cdb685406cc05a6ff3156b3c5a3c680e            12010 main/binary-arm64/Packages
+ 550797b0218a46aa65d60bcd18f1c87d             3465 main/binary-arm64/Packages.gz
 SHA1:
- e1c44b639e7fb5995136ca26f256429db5c61089              192 Release
- 2ee8cce21c5691448c2ad63dd0f32e879ef2e9fe              819 main/binary-arm64/Packages
- 72f8785524f1f72d7212e2a576d0d96d2da9a066              538 main/binary-arm64/Packages.gz
+ ed7ecbb5ecf1ea4512fb7ad301ca8b382099e23c              192 Release
+ 582963f84f6bcd1adc7f905ceb51785669a098d3            12010 main/binary-arm64/Packages
+ 1de22b01276a4d1ced9063776f0f5a1c2fdf9b69             3465 main/binary-arm64/Packages.gz
 SHA256:
- b9831baf4f460f574b4aaee3876eae28804df1e38ddcd52213355d051f6a0ea4              192 Release
- b0f972573bb03f7fb65b305c3964e993a83095ff5216cf7f22d012090a959567              819 main/binary-arm64/Packages
- 03693259c85760561c766fb14faa99756b7e3638d0c56ab5cccd2322639589bd              538 main/binary-arm64/Packages.gz
+ 849984d7ebfe27e3e626a5e62ca14fa3952c0557c3a0d514881b64f5611096da              192 Release
+ 9521e36c5eb31d4e3cf8b177198e7877ae64a5c34ef9c2ff2cb0c8b12db7875a            12010 main/binary-arm64/Packages
+ a906a582024e4687935af4379f530b9c046978b8ba27b6c5ea834ce36563ccdf             3465 main/binary-arm64/Packages.gz
 SHA512:
- 4fbd1d3814ad9d7a89ff5722b985388fffe2c3b1503bd838b9b0368a7a517080986aca65324982ef75a0154e7d2c5a771aaa5dc79d626e145360d253b60da6d6              192 Release
- 253c9812c4c6ae3af363807756d54490479ad7f9fa380e4a5f4169d3014f3bf8f02ff383a176de9c9b79785af7f212e13f4b9a614dbab2bc90224da700a0cee5              819 main/binary-arm64/Packages
- 2704b9c31b9dde80f4f6a420b029fcb303008183138d361914db34245ea2cd3f1bc6f70f65a70639a5c688eba81f4de5f1b291698872c7da7fd9250789a9bd2f              538 main/binary-arm64/Packages.gz
+ a9cec0d9c0112cab2190e13364376d2db71909e84e2e86d0386e637ceb66fd423a777dde8b3746b231c88aad9ddfde670c7586a259fec70802300c1c9786b41c              192 Release
+ af55c2363fb080530a7ecbca3ed86d8fd49d6e223b25f6fef129639ed7b0df17d7581db0b26d1c885487b6efb2018f101eb5c484f1f65aa50fe3ca759af63626            12010 main/binary-arm64/Packages
+ df04f5f194ca0f8f3311a184824ef9acd97b8f6415ef679edee8a776dce31d878ac5fedd33a7c7c61d19d35f75cce99d50d3e84fe9d568c649cd7b86a9dce5b4             3465 main/binary-arm64/Packages.gz

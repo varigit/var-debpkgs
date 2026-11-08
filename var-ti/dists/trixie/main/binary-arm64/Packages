@@ -15,3 +15,296 @@ Homepage: https://docs.imgtec.com
 Description: Imagination PowerVR SDK binaries and OpenGLES examples
  Contains OpenGLES example demos for Wayland windowing system using Imagination's SDK.
 
+Package: libckteec0t64
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 149
+Depends: libc6 (>= 2.38), libteec2 (>= 4.7.0+git20250611+23c112a)
+Breaks: libckteec0 (<< 4.7.0+git20250611+23c112a-1)
+Replaces: libckteec0
+Provides: libckteec0 (= 4.7.0+git20250611+23c112a-1)
+Filename: pool/trixie/l/libckteec0t64_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 23044
+MD5sum: 0098861295fdc2d5c38b2907c8e3f589
+SHA1: bc93bdde85888e63f64ba19010887509e56fb305
+SHA256: fabeb28811315166d76fb0378df7589b016a318b78a23d434ad630e2545627fb
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/OP-TEE/optee_client
+Description: OP-TEE PKCS#11 client library
+ This package contains libckteec, the OP-TEE client library used for
+ communication with the PKCS#11 trusted application.
+
+Package: libckteec0t64-dbgsym
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 87
+Depends: libckteec0t64 (= 4.7.0+git20250611+23c112a-1)
+Filename: pool/trixie/l/libckteec0t64-dbgsym_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 69452
+MD5sum: 5f34a943973fcb96f28479d303d7555e
+SHA1: 9995ded274bd59db4ab250057f877347f7fe7097
+SHA256: 159594962deae4e39fe53bcfd6732abf272e7657614b5d236098ef82db448de3
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libckteec0t64
+Build-Ids: 69829da0d99277e4efa48bdc1e5bff719515b146
+
+Package: libseteec0t64
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 85
+Depends: libc6 (>= 2.17), libteec2 (>= 4.7.0+git20250611+23c112a)
+Breaks: libseteec0 (<< 4.7.0+git20250611+23c112a-1)
+Replaces: libseteec0
+Provides: libseteec0 (= 4.7.0+git20250611+23c112a-1)
+Filename: pool/trixie/l/libseteec0t64_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 4940
+MD5sum: a6294604d7631ba3f9b09fba9ef14dd0
+SHA1: 8bc4b66b2f5656fd394c66d44fe09538926017e3
+SHA256: 920364d82197b0d50dccefd50cb4e5a58d0680e0eb0033a85b7ec6801d2264d5
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/OP-TEE/optee_client
+Description: OP-TEE secure element client library
+ This package contains libseteec, the OP-TEE secure element client
+ library.
+
+Package: libseteec0t64-dbgsym
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 20
+Depends: libseteec0t64 (= 4.7.0+git20250611+23c112a-1)
+Filename: pool/trixie/l/libseteec0t64-dbgsym_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 6036
+MD5sum: 255e17497eadce0dbf5f91984bfb5bd2
+SHA1: 97e446c16eca878b65ca8257d8b2d3bdff8216f6
+SHA256: 4af9d25c8eacaf37006d95a9938fbe1816aa28393fd1e8624b30dd6cc74f33c2
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libseteec0t64
+Build-Ids: 9c24444f405b05904b6ab861b5510df11593c754
+
+Package: libteeacl0.1.0t64
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 85
+Depends: libc6 (>= 2.34), libuuid1 (>= 2.31.1)
+Breaks: libteeacl0.1.0 (<< 4.7.0+git20250611+23c112a-1)
+Replaces: libteeacl0.1.0
+Provides: libteeacl0.1.0 (= 4.7.0+git20250611+23c112a-1)
+Filename: pool/trixie/l/libteeacl0.1.0t64_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 5224
+MD5sum: 75d0dd3e4001cf323fe5d46cacc7dfb7
+SHA1: a42b9b33b15f59f60d814ce53d64df495911ef36
+SHA256: 8e2e19a187695b6a4adc947b2d92ee31521750bf25ae1a8ce7e5a77d4bb9da82
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/OP-TEE/optee_client
+Description: OP-TEE access control library
+ This package contains libteeacl, the access control support library
+ used by OP-TEE client components.
+
+Package: libteeacl0.1.0t64-dbgsym
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 22
+Depends: libteeacl0.1.0t64 (= 4.7.0+git20250611+23c112a-1)
+Filename: pool/trixie/l/libteeacl0.1.0t64-dbgsym_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 8044
+MD5sum: 1c1cd196f4b1a87e474c17005593681b
+SHA1: 854913bb6953bee63fa29b3f6a2327e63ab291c9
+SHA256: 2556d6bcb9e4dcee0e237f1c31f9515be9b1c28f134f1c2f5b3fdc61d8f45460
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libteeacl0.1.0t64
+Build-Ids: 357a0a8a630b2a91d0c6b7b7c35017642fbf4e4e
+
+Package: libteec2
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 82
+Depends: libc6 (>= 2.34)
+Breaks: libteec1 (<< 4.7.0+git20250611+23c112a-1)
+Replaces: libteec1
+Filename: pool/trixie/l/libteec2_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 8064
+MD5sum: 5ac60361cfb67f21cf372527fdb4cb8a
+SHA1: 13cdc9be3fa78f7e2857ea5f9c61a2b4c4e370ba
+SHA256: d13f0e43e0f6743f66bb0c2b778cf51f9812f001dbaf80579c2b9daf1a5b718f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/OP-TEE/optee_client
+Description: OP-TEE Client API library
+ This package contains libteec, the normal-world library implementing
+ the GlobalPlatform TEE Client API for communicating with OP-TEE.
+
+Package: libteec2-dbgsym
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 34
+Depends: libteec2 (= 4.7.0+git20250611+23c112a-1)
+Filename: pool/trixie/l/libteec2-dbgsym_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 19492
+MD5sum: 8487d7985154f232ea45ab38084388bd
+SHA1: c2eba05c537bf8eb68b2490acf98354482b9ae6f
+SHA256: f12146b4a5291a0021df14a1811f54fbf5e44dcd7d0c9239d2be353e3e7adc3f
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libteec2
+Build-Ids: b2d264591c1b9f6eb13fff8c4521170acedae896
+
+Package: optee-client-dev
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 145
+Depends: libckteec0t64 (= 4.7.0+git20250611+23c112a-1), libseteec0t64 (= 4.7.0+git20250611+23c112a-1), libteeacl0.1.0t64 (= 4.7.0+git20250611+23c112a-1), libteec2 (= 4.7.0+git20250611+23c112a-1)
+Filename: pool/trixie/o/optee-client-dev_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 25176
+MD5sum: 83d5b1adff280731cebeefc539dc2274
+SHA1: 2d77eb9e4ceb9b72364d64926922642f7a2ae778
+SHA256: c11e5ef8ab4ad7b4340ab48d7c34f7e2432234d5e00ea6f9cfc0586fa276f799
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/OP-TEE/optee_client
+Description: OP-TEE client development files
+ OP-TEE is a Trusted Execution Environment designed to run alongside
+ a non-secure Linux kernel on Arm systems using TrustZone.
+ .
+ This package contains the headers and shared-library development
+ files for the OP-TEE client APIs.
+
+Package: optee-os-dev
+Source: optee-os
+Version: 4.7.0+git20250807+a9690ae-1
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 6869
+Depends: python3
+Filename: pool/trixie/o/optee-os-dev_4.7.0+git20250807+a9690ae-1_arm64.deb
+Size: 686916
+MD5sum: 7b8823fa21debb3b937e658935903294
+SHA1: 6232e007bf067adba3af774e533fc7de927c67b1
+SHA256: 9324f7955bceec369e5dd4ac14d064cf6ba7508868a968fff1735dde973b59a4
+Section: devel
+Priority: optional
+Homepage: https://www.trustedfirmware.org/projects/op-tee
+Description: SDK of OP-TEE Trusted OS for Texas Instruments K3 platforms
+ OP-TEE is a Trusted Execution Environment designed as a companion to a
+ non-secure Linux kernel running on Arm processors using TrustZone.
+ .
+ This package contains the Trusted Application development kit generated
+ from OP-TEE OS for Texas Instruments K3 platforms. It can be used to build
+ AArch64 Trusted Applications for systems such as the AM62x and AM62P.
+
+Package: optee-test-k3
+Source: optee-test
+Version: 4.7.0+git20250616+a15be9e-1
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 4041
+Depends: libc6 (>= 2.34), libssl3t64 (>= 3.0.0), libteec2 (>= 4.7.0+git20250611+23c112a), tee-supplicant
+Conflicts: optee-test-qemu
+Filename: pool/trixie/o/optee-test-k3_4.7.0+git20250616+a15be9e-1_arm64.deb
+Size: 495204
+MD5sum: ee6f634ae6067feff0a3887d0b38105d
+SHA1: c20b647796c19b7d752cc7979f8c9d464158b81c
+SHA256: 72328500e3c93825cae2a5463a5c646cf917b68da633a55da5bc6392cecd209d
+Section: devel
+Priority: optional
+Homepage: https://www.trustedfirmware.org/projects/op-tee
+Description: OP-TEE sanity test suite for TI K3 platforms
+ OP-TEE is a Trusted Execution Environment designed as a companion to a
+ non-secure Linux kernel running on Arm processors using TrustZone.
+ .
+ This package provides the OP-TEE xtest test application, test Trusted
+ Applications, and tee-supplicant test plugin built for Texas Instruments
+ K3 platforms.
+
+Package: optee-test-k3-dbgsym
+Source: optee-test
+Version: 4.7.0+git20250616+a15be9e-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 1676
+Depends: optee-test-k3 (= 4.7.0+git20250616+a15be9e-1)
+Filename: pool/trixie/o/optee-test-k3-dbgsym_4.7.0+git20250616+a15be9e-1_arm64.deb
+Size: 871152
+MD5sum: 38c80706621c627d62c175b40560e415
+SHA1: b3b60de4da59b67548519202b1ca7e5529436992
+SHA256: e8a0c9b2bbfb5e6a71158a1822d5e4dfc0a6e0073bb6619079c62c28ea3a8249
+Section: debug
+Priority: optional
+Description: debug symbols for optee-test-k3
+Build-Ids: 46bdd82b55c6a9e1c0427f54eb992802f38ec96d 9b7684e9de19ea5bbf6a0de47cbf13c412ec05ec
+
+Package: tee-supplicant
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 345
+Depends: libc6 (>= 2.34), libteec2 (>= 4.7.0+git20250611+23c112a)
+Filename: pool/trixie/t/tee-supplicant_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 21316
+MD5sum: b4b5baf7427877c401f808df43e622a5
+SHA1: e462788a4c4938ca148c0258b48d1a0ac87c30a1
+SHA256: 89947d8db816e594ab0684d1dcc9d5c0852baf7253fb5e73f156e2ce72253b44
+Section: libs
+Priority: optional
+Homepage: https://github.com/OP-TEE/optee_client
+Description: OP-TEE supplicant daemon
+ tee-supplicant provides normal-world services requested by OP-TEE,
+ including access to the REE filesystem, RPMB and dynamically loaded
+ trusted applications.
+
+Package: tee-supplicant-dbgsym
+Source: optee-client
+Version: 4.7.0+git20250611+23c112a-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 122
+Depends: tee-supplicant (= 4.7.0+git20250611+23c112a-1)
+Filename: pool/trixie/t/tee-supplicant-dbgsym_4.7.0+git20250611+23c112a-1_arm64.deb
+Size: 62596
+MD5sum: 961117f81af6267840fe1a89acdfbab5
+SHA1: 045bbd64541f5a554ece566c4364cf6a76991a88
+SHA256: 72f6288e9dc9175c416d9659592b2e1ddcb62305ef6362186ea44d441e123226
+Section: debug
+Priority: optional
+Description: debug symbols for tee-supplicant
+Build-Ids: 388718a17bed54f81eccdb802f59da430930e657
+
