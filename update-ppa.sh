@@ -5,6 +5,7 @@
 # Check if dpkg-scanpackages and apt-ftparchive are installed
 if ! command -v dpkg-scanpackages &> /dev/null || ! command -v apt-ftparchive &> /dev/null; then
     echo "Please install dpkg-scanpackages and apt-ftparchive."
+    echo "They are located in the dpkg-dev and apt-utils package."
     exit 1
 fi
 
