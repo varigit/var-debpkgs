@@ -308,3 +308,20 @@ Priority: optional
 Description: debug symbols for tee-supplicant
 Build-Ids: 388718a17bed54f81eccdb802f59da430930e657
 
+Package: var-install-yocto
+Version: 1.0-r0.0
+Architecture: arm64
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: bash, zstd
+Filename: pool/trixie/v/var-install-yocto_1.0-r0.0_arm64.deb
+Size: 3752
+MD5sum: 05d306bdd219532d8717e44fbb1ec57f
+SHA1: 297a2eb7aa2b592377930b28621ce8e18bc94139
+SHA256: f9432739ac7241005fc26054836863609df45a60cad7b290d467dadcdea8ff22
+Section: base
+Priority: optional
+Description: Variscite target Yocto install for recovery images.
+ Variscite target Yocto install for recovery images..
+Oe: var-install-yocto
+Packagearch: aarch64
+

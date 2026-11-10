@@ -1,3 +1,109 @@
+Package: brcm-patchram-plus
+Version: 1:0+git7.f80dacf-1
+Architecture: arm64
+Maintainer: Nate Drude <nate.d@variscite.com>
+Installed-Size: 76
+Depends: libc6 (>= 2.34)
+Filename: pool/trixie/b/brcm-patchram-plus/brcm-patchram-plus_0+git7.f80dacf-1_arm64.deb
+Size: 7968
+MD5sum: c5f4cc27675c9fedbdd4449221d79c9a
+SHA1: 48d8c2ae383c51a830fd974a5afd3db6dabc34ee
+SHA256: 00b3e79eca48e713f5bf6520563acb1c36ca40d82696dc9e99d9bcf151512277
+Section: misc
+Priority: optional
+Homepage: https://github.com/varigit/brcm-patchram-plus
+Description: BRCM Patchram Plus tool for ARM64
+ A tool to load firmware patches on Broadcom devices.
+
+Package: brcm-patchram-plus-dbgsym
+Source: brcm-patchram-plus
+Version: 1:0+git7.f80dacf-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Nate Drude <nate.d@variscite.com>
+Installed-Size: 45
+Depends: brcm-patchram-plus (= 1:0+git7.f80dacf-1)
+Filename: pool/trixie/b/brcm-patchram-plus/brcm-patchram-plus-dbgsym_0+git7.f80dacf-1_arm64.deb
+Size: 13988
+MD5sum: 8a1ba2661d38124ae011d5646e58715a
+SHA1: b92048ec259890b89da46fa79f3712de609508fe
+SHA256: 744ae38b6b91f4820a65a4380a76f862aed8887278784c46ba1b37d4f24ab0d0
+Section: debug
+Priority: optional
+Description: debug symbols for brcm-patchram-plus
+Build-Ids: 9e58a368d5504420b24cac4845bfc76f0bd2cdd4
+
+Package: u-boot-splash
+Version: 1.0-r0.0
+Architecture: arm64
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: pool/trixie/u/u-boot-splash_1.0-r0.0_arm64.deb
+Size: 3832
+MD5sum: 2b63d46260188a5766c1e875a5420078
+SHA1: fbe76190c91c062e97ea613f536162b680d32986
+SHA256: 15bc221e3e217d2db327037bc322794e0637983cda490786b0cca995edce2a02
+Section: bootloader
+Priority: optional
+Description: Copy U-Boot's splash.bmp to rootfs
+ Copy U-Boot's splash.bmp to rootfs.
+Oe: u-boot-splash
+Packagearch: aarch64
+
+Package: udev-aragoconf
+Version: 1-r0.0
+Architecture: arm64
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: udev, udev-extraconf
+Filename: pool/trixie/u/udev-aragoconf_1-r0.0_arm64.deb
+Size: 1696
+MD5sum: 51e27ed3b5af190f36a543a65bf2f0ee
+SHA1: 1c71bde8dbc318be117f99fb498a8423d1c04faf
+SHA256: 603202be7ddfc5f108198702836345a90fec191759ca25effc1993a4cdda17b8
+Section: base
+Priority: optional
+Description: Udev rules for assorted TI SoCs
+ Udev rules for assorted TI SoCs.
+Oe: udev-aragoconf
+Packagearch: aarch64
+
+Package: udev-extraconf
+Version: 1.1+29d920f4c2249df7a69f00100924b4525e03c0d9-r0
+Architecture: all
+Maintainer: Pitchaiah P <pitchaiah.p@variscite.com>
+Installed-Size: 24
+Depends: udev, util-linux, systemd, mount
+Filename: pool/trixie/u/udev-extraconf_1.1+29d920f4c2249df7a69f00100924b4525e03c0d9-r0_all.deb
+Size: 4976
+MD5sum: 6cb75953d6eae81c6d94a0c3970d0aa1
+SHA1: 51675e17eb90e6c752436327a5263d25a9a2bf1f
+SHA256: 7a0a0ba6d62d69d0e94ea25747a428346b9b2be3626c59ea6a5f1f0334379722
+Section: utils
+Priority: optional
+Homepage: https://git.openembedded.org/openembedded-core/
+Description: Extra udev configuration
+ This package provides additional udev configuration files and rules
+ used for enhancing device management. It requires basic udev tools
+ and utilities from util-linux, and optionally supports lsblk from
+ util-linux if systemd is in use.
+
+Package: var-gpio-utils
+Version: 1.0+5d9128d134a3ab15a4ff97657e498b940467f814-r0
+Architecture: all
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 11
+Depends: gpiod
+Filename: pool/trixie/v/var-gpio-utils_1.0+5d9128d134a3ab15a4ff97657e498b940467f814-r0_all.deb
+Size: 1952
+MD5sum: 7aabc0199bab34aaad2b5b213dd7f0af
+SHA1: a461c3356ba6d470182537fe2923d564369b2ac2
+SHA256: d22df4f6caa7e700f94b979dc3ddcdbc9857163bf1847749906a370615f8a2a6
+Section: embedded
+Priority: optional
+Homepage: https://github.com/varigit/meta-variscite-bsp-common
+Description: GPIO Utils for Variscite scripts
+ This package provides a helper function for GPIO handling, used
+ in Variscite scripts.
+
 Package: var-mii
 Version: 1.0+git20260824.e3d57777f5ab-1
 Architecture: arm64
@@ -33,4 +139,113 @@ Homepage: https://github.com/varigit/var-mii
 Description: Variscite MII Tool
  A tool to read, write, and test MII interfaces on Variscite System on
  Modules (SOMs).
+
+Package: var-suspend-utils
+Version: 1.0-r0
+Architecture: arm64
+Maintainer: NXP <lauren.post@nxp.com>
+Filename: pool/trixie/v/var-suspend-utils_1.0-r0_arm64.deb
+Size: 872
+MD5sum: 27678b5ce44fe75c4556ef16f1231f7d
+SHA1: 85220fe59c7fad41c7e48ed8a06ae9b30ba562c0
+SHA256: c4f1c615640fe261af195a3aef5284ca37878f6eab187c8f56d70cce25bd4008
+Section: base
+Priority: optional
+Description: Variscite suspend and resume utilities
+ Scripts and utilities for power management specific to Variscite
+ platforms.
+Oe: var-suspend-utils
+Packagearch: armv8-2a
+
+Package: var-suspend-utils-systemd
+Version: 1.0-r0
+Architecture: arm64
+Maintainer: NXP <lauren.post@nxp.com>
+Depends: var-suspend-utils
+Filename: pool/trixie/v/var-suspend-utils-systemd_1.0-r0_arm64.deb
+Size: 2352
+MD5sum: e8ac71437de9e940a03a396bc87e6c24
+SHA1: de444cf10ebb88f03835ed1161f27ededb766dba
+SHA256: 8b29776bfbac3a7e92b0ab9a86d937054fa66f039d55842dc59ad6cdbaf75c15
+Section: base
+Priority: optional
+Description: Variscite suspend and resume utilities
+ Scripts and utilities for power management specific to Variscite
+ platforms.
+Oe: var-suspend-utils
+Packagearch: armv8-2a
+
+Package: var-wireless-utils
+Version: 1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0
+Architecture: all
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 8
+Depends: var-wireless-utils-wifi (= 1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0), var-wireless-utils-bt (= 1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0), var-wireless-utils-ot (= 1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0)
+Filename: pool/trixie/v/var-wireless-utils_1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0_all.deb
+Size: 1704
+MD5sum: 1d6d7d36eb1df021b48c08f5112063bf
+SHA1: dba467c957a000f0f0f8811df7ca51b69f5487de
+SHA256: ef7e2f056202b99b6313c3464f40f9b74723c6ed4dec8ca104f057ce9b2f153b
+Section: embedded
+Priority: optional
+Homepage: https://github.com/varigit/meta-variscite-bsp-common
+Description: Variscite wireless setup utilities (metapackage)
+ Install the Wi-Fi, Bluetooth and OpenThread setup helpers for Variscite
+ modules. The separate component packages may also be installed individually.
+
+Package: var-wireless-utils-bt
+Source: var-wireless-utils
+Version: 1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0
+Architecture: all
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 21
+Depends: var-wireless-utils-wifi (= 1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0)
+Filename: pool/trixie/v/var-wireless-utils-bt_1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0_all.deb
+Size: 2804
+MD5sum: d74f1a835a0aff9d142fa9607c8a311c
+SHA1: 7e6ee1bf869997995b34d55fb03a9f00a2ceaef6
+SHA256: ba7def590cc01cda38a09e4ac068ba91e9c3981a88e498d1a7d3b0cbce2f7e5a
+Section: embedded
+Priority: optional
+Homepage: https://github.com/varigit/meta-variscite-bsp-common
+Description: Variscite Bluetooth setup utilities
+ Install the Bluetooth setup script and its systemd unit. The Wi-Fi package
+ supplies the shared wireless functions used by this script.
+
+Package: var-wireless-utils-ot
+Source: var-wireless-utils
+Version: 1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0
+Architecture: all
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 27
+Depends: var-wireless-utils-bt (= 1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0), procps
+Filename: pool/trixie/v/var-wireless-utils-ot_1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0_all.deb
+Size: 3996
+MD5sum: ca9c695e99b8dc6df1a35ea16d6d2e15
+SHA1: 680f3d9b7ed619a342eb33ebeef7ea63c6f8b192
+SHA256: 452ab6da93bf1e8f05eb3b4e9af6c6fc1e6d911244598cb9fee451711060217b
+Section: embedded
+Priority: optional
+Homepage: https://github.com/varigit/meta-variscite-bsp-common
+Description: Variscite OpenThread setup utilities
+ Install the OpenThread setup script, client and server helpers, and its
+ systemd unit. The Bluetooth package is required as in the Yocto recipe.
+
+Package: var-wireless-utils-wifi
+Source: var-wireless-utils
+Version: 1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0
+Architecture: all
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 25
+Filename: pool/trixie/v/var-wireless-utils-wifi_1.0+68d4cb9e6793539e370db340d6e8935a48442df1-r0_all.deb
+Size: 3964
+MD5sum: 5787bee2b23629725bc24800496a9215
+SHA1: d486764f71e6f6e61820160796081e222e73dc66
+SHA256: 20af47473f34b6350ef92d7c07404bc605a7e7f6a844aead83dbfc1557e2bab6
+Section: embedded
+Priority: optional
+Homepage: https://github.com/varigit/meta-variscite-bsp-common
+Description: Variscite Wi-Fi setup utilities
+ Install the common wireless helper functions, the Wi-Fi startup script,
+ and the associated systemd unit.
 

@@ -1,0 +1,21 @@
+Package: bcm43xx-utils
+Version: 1.0+a57deb0ced939d577aaa7a8923ba7c76369761d2-r0
+Architecture: all
+Maintainer: Matthias Proske <matthias.p@variscite.com>
+Installed-Size: 25
+Depends: i2c-tools, gpiod, kmod, bluez, udev, var-gpio-utils, var-wireless-utils-wifi, var-wireless-utils-bt, brcm-patchram-plus
+Filename: pool/trixie/b/bcm43xx-utils_1.0+a57deb0ced939d577aaa7a8923ba7c76369761d2-r0_all.deb
+Size: 4828
+MD5sum: edea12353bedb9b659b23334339d00cb
+SHA1: 052b01e6e0fb982c0e51f1e194bae405dac1363c
+SHA256: 6f1b6d19a897abffb63c27aef905c35906117b516113a56e743104752c9e050f
+Section: embedded
+Priority: optional
+Homepage: https://github.com/varigit/meta-variscite-bsp-ti
+Description: Broadcom Wi-Fi and Bluetooth setup scripts for VAR-SOM-AM62
+ Hardware-specific startup hooks for the Variscite VAR-SOM-AM62 with
+ Broadcom/Cypress Wi-Fi and Bluetooth hardware. These hooks are executed
+ by the services provided by var-wireless-utils.
+ .
+ This package is not intended for VAR-SOM-AM62P or NXP i.MX boards.
+
