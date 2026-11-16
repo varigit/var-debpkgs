@@ -33,6 +33,88 @@ Priority: optional
 Description: debug symbols for brcm-patchram-plus
 Build-Ids: 9e58a368d5504420b24cac4845bfc76f0bd2cdd4
 
+Package: linux-firmware-bcm4339
+Version: 1:20240909-r0.0
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: linux-firmware-broadcom-license
+Filename: pool/trixie/l/linux-firmware-bcm4339_20240909-r0.0_all.deb
+Size: 382752
+MD5sum: 4e2bc23d04b1ec9d9017d9958a0720d8
+SHA1: bc9bcd28042df8d2a220808915e06783da1725a4
+SHA256: 01d3193347f276fb0c858d4e9326fc8ef883f31f56c18f3df30416bbca68627d
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Firmware files for use with Linux kernel
+ Linux firmware is a package distributed alongside the Linux kernel that
+ contains firmware binary blobs necessary for partial or full
+ functionality of certain hardware devices.
+Oe: linux-firmware
+Packagearch: all
+
+Package: linux-firmware-bcm43430
+Version: 1:20240909-r0.0
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: linux-firmware-cypress-license
+Filename: pool/trixie/l/linux-firmware-bcm43430_20240909-r0.0_all.deb
+Size: 314668
+MD5sum: 06e9cbdcac0f254408925398041d6706
+SHA1: 8799c2c00312c3889518d6c50f9cd3668775682e
+SHA256: 76527e87316faf09d949598f7ce0d53fef0d9ac754eeba194cf9749569648245
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Firmware files for use with Linux kernel
+ Linux firmware is a package distributed alongside the Linux kernel that
+ contains firmware binary blobs necessary for partial or full
+ functionality of certain hardware devices.
+Oe: linux-firmware
+Packagearch: all
+
+Package: linux-firmware-broadcom-license
+Version: 1:20240909-r0.0
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: pool/trixie/l/linux-firmware-broadcom-license_20240909-r0.0_all.deb
+Size: 2936
+MD5sum: 8b6624b148f14f06e5000c03beef7c10
+SHA1: d5c46679eaab1fe54e0ebb59f80271d79f46a3cc
+SHA256: e8fb3ce2c6d1e20153131ab570577596fe1341df66572cd75b9ffe45a992889b
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Firmware files for use with Linux kernel
+ Linux firmware is a package distributed alongside the Linux kernel that
+ contains firmware binary blobs necessary for partial or full
+ functionality of certain hardware devices.
+Oe: linux-firmware
+Packagearch: all
+
+Package: linux-firmware-cypress-license
+Version: 1:20240909-r0.0
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: pool/trixie/l/linux-firmware-cypress-license_20240909-r0.0_all.deb
+Size: 4564
+MD5sum: a78bf6b203b00f7545494d955f9123b6
+SHA1: 66f5f89c357ca92198e2606e418caa7ce68e131b
+SHA256: c3edd714f1dcf09c51eec3712e37e2e754151661f86fb82f7259631ad843ef97
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Firmware files for use with Linux kernel
+ Linux firmware is a package distributed alongside the Linux kernel that
+ contains firmware binary blobs necessary for partial or full
+ functionality of certain hardware devices.
+Oe: linux-firmware
+Packagearch: all
+
 Package: u-boot-splash
 Version: 1.0-r0.0
 Architecture: arm64
